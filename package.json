@@ -1,5 +1,5 @@
 {
-  "name": "next-static-csr",
+  "name": "next-ssg-csr",
   "version": "1.0.0",
   "license": "UNLICENSED",
   "scripts": {
