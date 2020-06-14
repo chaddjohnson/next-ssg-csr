@@ -16,4 +16,14 @@ const ProductPage = () => {
   );
 };
 
+export const getStaticProps = async (context) => {
+  return {
+    props: {},
+  };
+};
+
+export const getStaticPaths = async () => {
+  return { paths: [], fallback: true };
+};
+
 export default ProductPage;
