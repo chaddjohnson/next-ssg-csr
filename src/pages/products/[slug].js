@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 
 const ProductPage = () => {
   const router = useRouter();
-  const { id } = useParams();
+  const { slug } = useParams();
 
   return (
     <>
@@ -11,7 +11,7 @@ const ProductPage = () => {
       <p>pathname: {router.pathname}</p>
       <p>query: {JSON.stringify(router.query)}</p>
       <p>asPath: {router.asPath}</p>
-      <p>id: {id}</p>
+      <p>slug: {slug}</p>
     </>
   );
 };

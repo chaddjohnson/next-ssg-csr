@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <Router>
       <Switch>
-        <Route exact path="/products/:id">
+        <Route exact path="/products/:slug">
           <ProductPage {...pageProps} />
         </Route>
         <Route>
