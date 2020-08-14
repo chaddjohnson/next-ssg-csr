@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "license": "UNLICENSED",
   "scripts": {
-    "export": "NODE_ENV=production next build && next export"
+    "export": "NODE_ENV=production next build && next export",
+    "serve": "serve out"
   },
   "dependencies": {
-    "next": "^9.4.4",
+    "next": "^9.5.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "serve": "^11.3.2"
   }
 }
