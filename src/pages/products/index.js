@@ -1,11 +1,11 @@
 import { useRouter } from 'next/router';
 
-const Page = () => {
+const ProductsPage = () => {
   const router = useRouter();
 
   return (
     <>
-      <h1>Page</h1>
+      <h1>Products</h1>
       <p>pathname: {router.pathname}</p>
       <p>query: {JSON.stringify(router.query)}</p>
       <p>asPath: {router.asPath}</p>
@@ -13,4 +13,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default ProductsPage;
