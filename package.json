@@ -6,7 +6,7 @@
     "export": "NODE_ENV=production next build && next export"
   },
   "dependencies": {
-    "next": "^9.4.4",
+    "next": "^11.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0"
